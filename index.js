@@ -24,6 +24,7 @@ function addTask() {
       editElem.innerText = "Edit";
       clickLI.appendChild(editElem);
       addBtn.innerText = "Add";
+      clickLI = "";
 
     } else {
       console.log(clickLI);

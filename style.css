@@ -7,24 +7,25 @@ body{
 
 .main-container{
     width:70%;
-    height:100vh;
-    border:2px solid red;
+    height:auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to top,cyan,lightblue);
+    background-image: linear-gradient(to right,red,blue);
     position: absolute;
     left:15%;
  
 }
 .todo-container{
     width:50%;
-    height:80%;
-    border:2px solid black;
+    height:auto;
+    border: 2px solid black;
+    border-radius: 10px;
     
 }
 .todo-container h1{
     margin: 10px;
+    color:white;
 }
 .todo-input{
     width:80%;
@@ -60,7 +61,7 @@ body{
 }
 .editBtn{
     width:15%;
-    height:10%;
+    height:6%;
     background-color: green;
     color:white;
     font-size:20px;
@@ -81,6 +82,7 @@ body{
 }
 
 .todo-list li{
+    color:white;
    width:105%;
     height:45px;
     padding:10px;
@@ -92,6 +94,7 @@ body{
     font-size:20px;
     margin-left:-40px;
     margin-bottom: 5px;
+    border-radius: 10px;
     
 }
 
